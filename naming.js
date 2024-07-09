@@ -45,6 +45,9 @@ module.exports = {
     getApiGatewayName() {
         return this._getMappings().apiGateway
     },
+    getHttpApiName() {
+        return this._getMappings().httpGateway
+    },
     getLogGroupName(functionName) {
         const self = this
         var logGroup

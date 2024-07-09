@@ -1,5 +1,5 @@
 {
-    "name": "serverless-aws-resource-names",
+    "name": "@salemgolemugoo/serverless-aws-resource-names",
     "main": "index",
     "version": "0.1.0",
     "description": "Serverless plugin to enable custom AWS resource names",

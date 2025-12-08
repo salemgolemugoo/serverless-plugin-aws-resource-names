@@ -60,7 +60,7 @@ module.exports = {
         return logGroup
     },
     getEcrRepositoryName() {
-        return this._getMappings().ecr
+        return this._getMappings().ecr.toLowerCase()
     },
     setFunctionNames(provider) {
         const self = this
